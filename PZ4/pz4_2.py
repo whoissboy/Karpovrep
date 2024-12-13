@@ -8,7 +8,7 @@ while True:
             print("Число должно быть больше 1!")
         else:
             K = 1
-            while 3 * K <= N:
+            while 3 ** K <= N:
                 K += 1
             print("Наименьшее целое число K:", K)
             break
