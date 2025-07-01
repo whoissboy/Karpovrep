@@ -1,4 +1,4 @@
-import string
+ import string
 
 # Заданная строка
 input_string = '--msg-template="$FileDir$\{path}:{line}:{column}:{C}:({symbol}){msg}"'
