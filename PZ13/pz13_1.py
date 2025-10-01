@@ -1,3 +1,4 @@
+# В двумерном списке найти сумму и произведение элементов строки N (N задать с клавиатуры).
 # Функция для создания двумерного списка (матрицы)
 def create_matrix(rows, cols):
     return [[j + i * cols for j in range(cols)] for i in range(rows)]
