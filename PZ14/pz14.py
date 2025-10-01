@@ -1,3 +1,4 @@
+# Из исходного текстового файла (Dostoevsky.txt) выбрать блок информации за 1857 год и поместить ее в новый текстовый файл.
 # Функция для извлечения информации за 1857 год из файла
 def extract_info_for_year(input_file, output_file, year):
     with open(input_file, 'r', encoding='utf-8') as f:
