@@ -1,4 +1,6 @@
- import string
+# 2. Задана строка следующего образца, содержащая символы пунктуации. Использовать библиотеку string.
+# Строка: --msg-template="$FileDir$\{path}:{line}:{column}:{C}:({symbol}){msg}"
+import string
 
 # Заданная строка
 input_string = '--msg-template="$FileDir$\{path}:{line}:{column}:{C}:({symbol}){msg}"'
